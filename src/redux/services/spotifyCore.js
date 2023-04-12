@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
         baseQuery: fetchBaseQuery({
             baseUrl: 'https://spotify23.p.rapidapi.com/',
             prepareHeaders: (headers) => {
-               headers.set('X-RapidAPI-Key', '25f7238c8emsh59dc82dedf34fa2p12a7e8jsnfa7aeca4fb1a'); 
+               headers.set('X-RapidAPI-Key', ''); 
 
                return headers;
             },
